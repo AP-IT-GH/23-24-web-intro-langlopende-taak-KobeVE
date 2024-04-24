@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Netwerkbeheer en beveiliging</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" defer></script>
+  <link rel="stylesheet" href="./css/style.css">  
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #001f3f;">
+      <a class="navbar-brand" href="index.html"><img src="./assets/Logo.png" alt="Logo" style="height: 40px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link"  style="color: white;"href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDiensten" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+              Diensten
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownDiensten">
+              <li><a class="dropdown-item" href="pagina1.html">Netwerktopologiën</a></li>
+              <li><a class="dropdown-item" href="pagina2.html">Netwerkprotocollen</a></li>
+              <li><a class="dropdown-item" href="pagina3.html">Beveiligingsmaatregelen (Huidige)</a></li>
+              <li><a class="dropdown-item" href="pagina4.html">Netwerkmonitoring</a></li>
+              <li><a class="dropdown-item" href="pagina5.html">Cloud netwerken</a></li>
+              <li><a class="dropdown-item" href="pagina6.html">Netwerkbeheer</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  style="color: white;"href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="container">
+    <h1 class="title">Beveiligingsmaatregelen</h1>
+    <h2 class="subtitle">Firewallbescherming voor Netwerkbeveiliging</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="text-block v-center">
+          <p>
+            Een essentiële beveiligingsmaatregel binnen elk netwerk is de implementatie van firewalls. <br>
+            Firewalls fungeren als een poortwachter tussen het interne netwerk en externe netwerken, zoals het internet. <br>
+             Door het analyseren van inkomend en uitgaand verkeer, kunnen firewalls verdacht verkeer blokkeren en alleen toegang verlenen aan geautoriseerde gebruikers en gegevens. <br>
+             Dit helpt bij het voorkomen van ongeautoriseerde toegang, malware-infecties en datadiefstal. <br>
+             Daarnaast bieden firewalls vaak functies zoals virtuele particuliere netwerken (VPN's) voor veilige externe toegang tot het netwerk, waardoor de algehele beveiliging van het netwerk wordt versterkt.
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="image-container">
+          <img src="./assets/Beveiligingsmaatregelen.png" alt="Afbeelding">
+        </div>
+      </div>
+    </div>
+    <h2 class="subtitle">Inbraakdetectie- en Preventiesystemen (IDPS) voor Proactieve Netwerkbeveiliging</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="text-block v-center">
+          <p>
+            Naast firewalls zijn inbraakdetectie- en preventiesystemen (IDPS) van onschatbare waarde voor het waarborgen van de veiligheid binnen een netwerk. <br>
+            IDPS-systemen monitoren continu het netwerkverkeer op zoek naar verdachte activiteiten, zoals pogingen tot ongeautoriseerde toegang, verdachte datatransfers of malware-activiteit. <br>
+            Wanneer een dreiging wordt gedetecteerd, neemt het IDPS onmiddellijk maatregelen om de aanval te stoppen of te neutraliseren. <br>
+            Dit kan variëren van het blokkeren van IP-adressen tot het isoleren van geïnfecteerde systemen om verdere verspreiding van malware te voorkomen. <br>
+            Door proactief bedreigingen te identificeren en te bestrijden, helpen IDPS-systemen bij het minimaliseren van de impact van cyberaanvallen en het handhaven van de integriteit en beschikbaarheid van het netwerk.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="image-container">
+          <img src="./assets/Firewall.jpg" alt="Afbeelding" class="img-fluid">
+        </div>
+      </div>
+    </div>
+</div>
+</body>
+</html>
