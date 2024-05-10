@@ -9,6 +9,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer></script>
     <link href="./css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="stylesheet" href="./css/mapStyle.css">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="./js/mapScript.js" defer></script>
+</body>
   </head>
 <body>
   <header>
@@ -27,7 +34,7 @@
               Diensten
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownDiensten">
-              <li><a class="dropdown-item" href="pagina1.html">Netwerktopologiën (Huidige)</a></li>
+              <li><a class="dropdown-item" href="pagina1.html">Netwerktopologiën</a></li>
               <li><a class="dropdown-item" href="pagina2.html">Netwerkprotocollen</a></li>
               <li><a class="dropdown-item" href="pagina3.html">Beveiligingsmaatregelen</a></li>
               <li><a class="dropdown-item" href="pagina4.html">Netwerkmonitoring</a></li>
@@ -39,7 +46,7 @@
             <a class="nav-link" style="color: white;" href="dashboard.html">Dashboard</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link"  style="color: white;"href="contact.html">Contact</a>
+            <a class="nav-link"  style="color: white;"href="contact.html">Contact (Huidige)</a>
           </li>
         </ul>
       </div>
@@ -126,9 +133,14 @@
           </form>
         </section>
         <hr>
+        <section id="map"  class="row">
+          <div id="apMap" class="col-12 mb-3"></div>
+      </section>
       </main>
     </div>
   </div>
+
+
 <footer class="navbar navbar-expand-lg navbar-light" style="background-color: #001f3f; margin-top: auto;">
     <div class="container">
       <div class="navbar-nav mx-auto">
