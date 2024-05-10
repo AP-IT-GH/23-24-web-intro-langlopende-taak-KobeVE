@@ -68,3 +68,21 @@ p{
   height: 170px;
   width: 100px;
 }
+
+.user-container {
+  display: flex;
+  justify-content: center;
+}
+
+.user {
+  flex: 1;
+  margin: 10px;
+  text-align: center;
+}
+
+.user img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
