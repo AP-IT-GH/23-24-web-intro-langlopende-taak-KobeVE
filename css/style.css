@@ -98,3 +98,8 @@ body, html {
   margin-right: auto;
   margin-left: auto;
 }
+
+#zoekbalk
+{
+  margin-left: 1000px;
+}
