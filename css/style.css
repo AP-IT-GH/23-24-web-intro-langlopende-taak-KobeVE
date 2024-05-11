@@ -103,3 +103,20 @@ body, html {
 {
   margin-left: 1000px;
 }
+
+#gegevens{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#h3kleur
+{
+  color: #001f3f;
+}
+
+#fixedfooter {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
