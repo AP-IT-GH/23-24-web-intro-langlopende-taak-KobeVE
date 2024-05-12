@@ -27,7 +27,7 @@ body {
     font-size: 24px;
     display: flex;
     justify-content: center;
-    color: #ffffff;
+    color:#001f3f;
   }
 .subtitle {
     font-size: 18px;
@@ -59,9 +59,6 @@ body {
     height: 20px;
     width: 20px;
   }
-p{
-  font-family:Helvetica, sans-serif;
-}
 #image-small
 {
   margin-left: 75%;
@@ -90,7 +87,7 @@ p{
 body, html {
   margin: 0;
   padding: 0;
-  overflow-x: hidden; /* om de horizontale schuifbalk te verwijderen */
+  overflow-x: hidden;
 }
 .container {
   padding-right: 15px;
